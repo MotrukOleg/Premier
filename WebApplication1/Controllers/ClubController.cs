@@ -54,5 +54,31 @@ namespace WebApplication1.Controllers
 
             return Ok(clubToUpdate);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Club>> Delete(int id)
+        {
+            var clubToDelete = await club_service.Delete(id);
+            if (clubToDelete != null)
+            {
+                return Ok();
+            }
+
+            return NotFound("Club does not found");
+        }
+
+        [HttpGet("GetOldestClub")]
+
+        public async Task<ActionResult<OutputClubDto>> GetOldestClub()
+        {
+            var oldestClub = await club_service.GetOldestClub();
+
+            if (oldestClub != null)
+            {
+                return Ok(oldestClub);
+            }
+
+            return NotFound();
+        }
     }
 }

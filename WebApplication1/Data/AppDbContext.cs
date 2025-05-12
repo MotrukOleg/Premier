@@ -11,7 +11,7 @@ namespace WebApplication1.Chains
         }
 
         public DbSet<Stadium> Stadium { get; set; } = null!;
-        public DbSet<Club> Club {  get; set; } = null!;
+        public DbSet<Club?> Club {  get; set; } = null!;
         public DbSet<Standings> Standings{ get; set; } = null!;
         public DbSet<Player> Player { get; set; }
         public DbSet<PlayerStat> PlayerStat { get; set; }

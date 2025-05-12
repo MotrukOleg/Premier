@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
 --
--- Host: localhost    Database: premier
+-- Host: localhost    Database: premierweb
 -- ------------------------------------------------------
 -- Server version	8.0.40
 

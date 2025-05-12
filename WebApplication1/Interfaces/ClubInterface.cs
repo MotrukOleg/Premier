@@ -9,6 +9,8 @@ namespace WebApplication1.Interfaces
         Task<OutputClubDto> GetById(int id);
         Task<OutputClubDto> Post(InputClubDto input);
         Task<OutputClubDto?> Put(InputClubDto input, int id);
+        Task<Club?> Delete(int id);
+        Task<OutputClubDto?> GetOldestClub();
 
     }
 }

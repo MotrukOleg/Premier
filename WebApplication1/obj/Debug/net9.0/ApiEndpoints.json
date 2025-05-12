@@ -78,6 +78,32 @@
   },
   {
     "ContainingType": "WebApplication1.Controllers.ClubController",
+    "Method": "Delete",
+    "RelativePath": "Club/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication1.Models.Club",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.ClubController",
     "Method": "GetById",
     "RelativePath": "Club/GetById/{id}",
     "HttpMethod": "GET",
@@ -90,6 +116,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication1.DTO.OutputClubDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.ClubController",
+    "Method": "GetOldestClub",
+    "RelativePath": "Club/GetOldestClub",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "WebApplication1.DTO.OutputClubDto",
