@@ -24,8 +24,8 @@ namespace TestProject1
         {
                 var clubs = new List<OutputClubDto>
             {
-                new OutputClubDto { id = 1, name = "Club A" },
-                new OutputClubDto { id = 2, name = "Club B" }
+                new OutputClubDto { Id = 1, Name = "Club A" },
+                new OutputClubDto { Id = 2, Name = "Club B" }
             };
             club_service.Setup(club => club.Get()).ReturnsAsync(clubs);
 
@@ -40,7 +40,7 @@ namespace TestProject1
         public async Task Post_ResultCreationAtAction_WithNewClub()
         {
             var input = new InputClubDto { name = "New Club" };
-            var club = new OutputClubDto { id = 1, name = "New Club" };
+            var club = new OutputClubDto { Id = 1, Name = "New Club" };
             club_service.Setup(club => club.Post(input)).ReturnsAsync(club);
 
             var result = await clubController.Post(input);

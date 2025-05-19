@@ -5,20 +5,20 @@ namespace WebApplication1.Chains
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) 
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
         }
 
         public DbSet<Stadium> Stadium { get; set; } = null!;
-        public DbSet<Club?> Club {  get; set; } = null!;
-        public DbSet<Standings> Standings{ get; set; } = null!;
+        public DbSet<Club?> Club { get; set; } = null!;
+        public DbSet<Standings> Standings { get; set; } = null!;
         public DbSet<Player> Player { get; set; }
         public DbSet<PlayerStat> PlayerStat { get; set; }
         public DbSet<MatchInfo> MatchInfo { get; set; }
         public DbSet<Transfer> Transfer { get; set; }
         public DbSet<Goal> Goal { get; set; }
-        public DbSet<Assist> Assist{ get; set; } = null!;
+        public DbSet<Assist> Assist { get; set; } = null!;
+        public DbSet<User> User { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -69,7 +69,11 @@ namespace WebApplication1.Chains
                 .HasOne(Goal => Goal.Match)
                 .WithMany(Match => Match.Goals)
                 .HasForeignKey(Goal => Goal.MatchId)
-                .OnDelete (DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
         }
     }
 }

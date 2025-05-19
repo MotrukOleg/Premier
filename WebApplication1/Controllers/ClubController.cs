@@ -6,8 +6,8 @@ using WebApplication1.Services;
 
 namespace WebApplication1.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("/[controller]")]
     public class ClubController : ControllerBase
     {
         public readonly IClubService club_service;
@@ -40,10 +40,10 @@ namespace WebApplication1.Controllers
             }
             OutputClubDto club = await club_service.Post(input);
 
-            return CreatedAtAction("GetById", new { Id = club!.id }, club);
+            return CreatedAtAction("GetById", new { Id = club!.Id }, club);
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult<OutputClubDto>> Put(InputClubDto input, int id)
+        public async Task<ActionResult<OutputClubDto>> Put(InputClubForWeb input, int id)
         {
 
             OutputClubDto? clubToUpdate = await club_service.Put(input , id);

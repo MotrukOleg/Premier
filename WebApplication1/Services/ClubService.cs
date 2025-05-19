@@ -10,16 +10,16 @@ namespace WebApplication1.Services;
 
 public class ClubService : IClubService
 {
-    private readonly AppDbContext context;
+    private readonly AppDbContext _context;
 
     public ClubService(AppDbContext context)
     {
-        this.context = context;
+        _context = context;
     }
 
     public async Task<List<OutputClubDto>> Get()
     {
-        List<Club> clubs = await context.Club.Include(club => club.Stadium).ToListAsync();
+        List<Club> clubs = await _context.Club.Include(club => club.Stadium).ToListAsync();
         List<OutputClubDto> outputClubs = clubs.Select(club => (OutputClubDto)club).ToList();
         return outputClubs;
     }
@@ -35,27 +35,48 @@ public class ClubService : IClubService
             Country = input.country,
             StadiumId = input.stadiumId,
         };
-        Stadium? stadium = await context.Stadium.FirstOrDefaultAsync(Stadium => Stadium.Id == club.StadiumId);
+        Stadium? stadium = await _context.Stadium.FirstOrDefaultAsync(Stadium => Stadium.Id == club.StadiumId);
         PostStadiumToClub(stadium, club.StadiumId);
-        context.Entry(stadium).State = EntityState.Modified;
+        _context.Entry(stadium).State = EntityState.Modified;
 
 
-        context.Club.Add(club);
-        await context.SaveChangesAsync();
+        _context.Club.Add(club);
+        await _context.SaveChangesAsync();
 
         return (OutputClubDto)club;
     }
 
     public async Task<OutputClubDto> GetById(int id)
     {
-        Club? club = await context.Club.Include(club => club.Stadium).FirstOrDefaultAsync(club => club != null && club.Id == id);
+        Club? club = await _context.Club.Include(club => club.Stadium).FirstOrDefaultAsync(club => club != null && club.Id == id);
 
-        return (OutputClubDto)club;
+
+        var goalConceded = 0;
+        var goalScored = 0;
+
+        var matches = await _context.MatchInfo.Include(homeClub => homeClub.HomeClub)
+            .Include(awayClub => awayClub.AwayClub)
+            .Where(match => (match != null && match.HomeClubId == id) || match.AwayClubId == id)
+            .ToListAsync();
+
+        foreach (var matchInfo in matches.Where(matchInfo =>
+                     matchInfo.HomeClubId == id || matchInfo.AwayClubId == id))
+        {
+            goalScored += matchInfo.HomeTeamGoals;
+            goalConceded += matchInfo.AwayTeamGoals;
+        }
+
+        var dto = (OutputClubDto)club;
+
+        dto.GoalScored = goalScored;
+        dto.GoalConceded = goalConceded;
+
+        return dto;
     }
 
-    public async Task<OutputClubDto?> Put(InputClubDto input, int id)
+    public async Task<OutputClubDto?> Put(InputClubForWeb input, int id)
     {
-        Club? club = await context.Club.Include(club => club.Stadium).FirstOrDefaultAsync(club => club.Id == id);
+        Club? club = await _context.Club.Include(club => club.Stadium).FirstOrDefaultAsync(club => club.Id == id);
         if (club == null)
         {
             return null;
@@ -63,20 +84,20 @@ public class ClubService : IClubService
 
         UpdateClub(club, input);
 
-        context.Entry(club).State = EntityState.Modified;
-        await context.SaveChangesAsync();
+        _context.Entry(club).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
 
         return (OutputClubDto)club;
     }
 
     public async Task<Club?> Delete(int id)
     {
-        Club? clubToDelete = await context.Club.FirstOrDefaultAsync(club => club.Id == id);
+        Club? clubToDelete = await _context.Club.FirstOrDefaultAsync(club => club.Id == id);
 
         if (clubToDelete != null)
         {
-            context.Remove(clubToDelete);
-            await context.SaveChangesAsync();
+            _context.Remove(clubToDelete);
+            await _context.SaveChangesAsync();
             return clubToDelete;
         }
 
@@ -85,16 +106,15 @@ public class ClubService : IClubService
 
     public async Task<OutputClubDto?> GetOldestClub()
     {
-        Club? oldestClub = await context.Club.Include(club => club.Stadium).OrderBy(club => club!.Founded).FirstOrDefaultAsync();
+        Club? oldestClub = await _context.Club.Include(club => club.Stadium).OrderBy(club => club!.Founded).FirstOrDefaultAsync();
 
         return (OutputClubDto)oldestClub;
     }
 
-    private static void UpdateClub(Club club, InputClubDto input)
+    private static void UpdateClub(Club club, InputClubForWeb input)
     {
         club.Name = input.name;
         club.Coach = input.coach;
-        club.StadiumId = input.stadiumId;
         club.City = input.city;
         club.Founded = input.founded;
     }

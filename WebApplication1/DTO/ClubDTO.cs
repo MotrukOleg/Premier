@@ -14,7 +14,7 @@ namespace WebApplication1.DTO
 
     }
 
-    public class OutputClubDto
+    public class InputClubForWeb
     {
         public int id { get; set; }
         public string name { get; set; } = null!;
@@ -22,22 +22,34 @@ namespace WebApplication1.DTO
         public string country { get; set; } = null!;
         public string coach { get; set; } = null!;
         public int founded { get; set; }
-        public string stadium { get; set; } = null!;
+
+    }
+
+    public class OutputClubDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = null!;
+        public string City { get; set; } = null!;
+        public string Country { get; set; } = null!;
+        public string Coach { get; set; } = null!;
+        public int Founded { get; set; }
+        public string Stadium { get; set; } = null!;
+        public int GoalConceded { get; set; }
+        public int GoalScored { get; set; }
         public static explicit operator OutputClubDto(Club club)
         {
             Stadium stadium = club.Stadium;
 
             return new OutputClubDto
             {
-                id = club.Id,
-                name = club.Name,
-                city = club.City,
-                country = club.Country,
-                coach = club.Coach,
-                founded = club.Founded,
-                stadium = stadium != null ? stadium.Name : "No Stadium"
+                Id = club.Id,
+                Name = club.Name,
+                City = club.City,
+                Country = club.Country,
+                Coach = club.Coach,
+                Founded = club.Founded,
+                Stadium = stadium.Name ?? "No Stadium",
             };
         }
     }
-
 }

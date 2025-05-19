@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OLeg\\Web\\Lab2\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\websockets\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\websockets\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\dto\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\services\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\dto\\stadiumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\stadiumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\dto\\matchinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\matchinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\models\\assist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\assist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\dto\\clubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\clubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\interfaces\\clubinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\clubinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\services\\matchinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\matchinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\controllers\\matchinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\matchinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FEE5C-6B29-4989-B561-2356963B900B}|TestProject1\\TestProject1.csproj|e:\\oleg\\web\\lab2\\backend\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FEE5C-6B29-4989-B561-2356963B900B}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\models\\matchinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\matchinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|e:\\oleg\\web\\lab2\\backend\\webapplication1\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B091213D-95E2-46BB-BA17-8DD156D95B0D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatMessageDto.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\ChatMessageDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\ChatMessageDto.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\ChatMessageDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\ChatMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:47:11.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:16:07.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T12:06:06.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\UserDto.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\UserDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:57:33.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\UserService.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\UserService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAvwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:55:53.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\User.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\User.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:54:41.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebSocketHandler.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\WebSockets\\WebSocketHandler.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WebSockets\\WebSocketHandler.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\WebSockets\\WebSocketHandler.cs",
+              "RelativeToolTip": "WebApplication1\\WebSockets\\WebSocketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:15:57.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClubInterface.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Interfaces\\ClubInterface.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ClubInterface.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Interfaces\\ClubInterface.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\ClubInterface.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:15:53.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:08:11.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StadiumDTO.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\StadiumDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\StadiumDTO.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\StadiumDTO.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\StadiumDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:31:35.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MatchInfoDto.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\MatchInfoDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\MatchInfoDto.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\MatchInfoDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\MatchInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:29:46.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StadiumService.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\StadiumService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\StadiumService.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\StadiumService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\StadiumService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:03:52.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MatchInfoController.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\MatchInfoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MatchInfoController.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\MatchInfoController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MatchInfoController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:55:35.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MatchInfoService.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\MatchInfoService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\MatchInfoService.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\MatchInfoService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\MatchInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:48:05.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MatchInfo.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\MatchInfo.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\MatchInfo.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\MatchInfo.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\MatchInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:44:10.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClubDTO.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\ClubDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\ClubDTO.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\DTO\\ClubDTO.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\ClubDTO.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:04:01.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\ClubService.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Services\\ClubService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\ClubService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwFQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:00:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ClubController.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ClubController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:58:14.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Stadium.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Stadium.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Stadium.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Stadium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:18:20.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Club.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Club.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Club.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Club.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:14:17.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Assist.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Assist.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Assist.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Models\\Assist.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Assist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:13:09.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:52:36.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\OLeg\\Web\\Lab2\\Backend\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:46:21.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
